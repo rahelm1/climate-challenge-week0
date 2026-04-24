@@ -18,7 +18,7 @@ jobs: # A workflow is made up of one or more jobs
       # Step 2: Install and configure the correct Python version
       - uses: actions/setup-python@v5 # Official GitHub Action to set up Python
         with: # Pass input parameters to the action
-          python-version: "3.14" # Use Python version 3.11
+          python-version: "3.11" # Use Python version 3.11
 
       # Step 3: Confirm which Python version is active (useful for debugging)
       - run: python --version # Print the Python version to the workflow logs
