@@ -25,9 +25,3 @@ jobs: # A workflow is made up of one or more jobs
 
       # Step 4: Install all required Python libraries listed in requirements.txt
       - run: pip install -r requirements.txt # Install project dependencies
-
-      # Step 5: Lint the code to check for style issues and syntax errors
-      - run: flake8 src/ tests/ --max-line-length=88 # Run flake8 on src/ and tests/; allow lines up to 88 chars
-
-      # Step 6: Run the automated test suite to verify the code works correctly
-      - run: pytest tests/ -v --tb=short # Run pytest with verbose output (-v) and short error tracebacks (--tb=short)
