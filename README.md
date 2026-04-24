@@ -12,4 +12,4 @@ Based on folder structure
 -Amend README.md with change 
 -create .gitignore/workflows folder create file called ci.yml for CI and reqcd uired codes
 -commit each changes with commit message
-- merge newbranch created to main
+- merge newbranch created to main, pull it from github
